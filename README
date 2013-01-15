@@ -1,0 +1,1 @@
+This Arduino sketch will accept MIDI data via the Arduino's serial input, parse the incoming MIDI with the arduino midi library, and output a 0v to 5v control voltage for incoming CC messages on any channel. As a diagnostic measure, the arduino onboard LED will light when any value greater than 65 is present on the CC input. Output is linear (for now) in 0.04v steps. 
